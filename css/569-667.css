@@ -1,0 +1,392 @@
+@media(min-width: 569px) and (max-width: 667px) {
+
+    @font-face {
+        font-family: 'Open Sans Condensed';
+        src: url('../ttf/Open_Sans_Condensed/OpenSansCondensed-Light.ttf');
+    }
+
+    * {
+        box-sizing: border-box;
+        font-family: 'Open Sans Condensed';
+        font-weight: 400;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .header {
+        margin: 0 auto;
+        width: 539px;
+    }
+
+    .headerSectionLogo {
+        width: 539px;
+    }
+
+    .headerSectionLogoImg {
+        padding-top: 10px;
+        width: 539px;
+    }
+
+    .main {
+        margin: 0 auto;
+        width: 539px;
+    }
+
+    .mainSectionOffer {
+        width: 539px;
+    }
+
+    .mainSectionOffer {
+        width: 539px;
+    }
+
+    .mainSectionOfferHr {
+        margin: 0px;
+    }
+
+    .mainSectionOfferHr {
+        margin: 0px;
+    }
+
+    .mainSectionOfferHeader {
+        display: flex;
+        width: 539px;
+    }
+
+    .mainSectionOfferHeader {
+        display: flex;
+        width: 539px;
+    }
+
+    .mainSectionOfferHeaderH1 {
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .mainSectionOfferHeaderH1 {
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .mainSectionOfferHeaderImg {
+        height: 30px;
+        padding-top: 3px;
+        width: 30px;
+    }
+
+    .mainSectionOfferHeaderImg {
+        height: 30px;
+        padding-top: 3px;
+        width: 30px;
+    }
+
+    .mainSectionOfferArticle {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+        /* width: 539px; */
+    }
+
+    .mainSectionOfferArticle {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+        /* width: 539px; */
+    }
+
+    .mainSectionOfferArticleHeader {
+        flex: 1 100%;
+    }
+
+    .mainSectionOfferArticleHeader {
+        flex: 1 100%;
+    }
+
+    .mainSectionOfferArticleHeaderH2 {
+        color: #ff0000;
+        font-size: 20px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-align: left;
+    }
+
+    .mainSectionOfferArticleHeaderH2 {
+        color: #ff0000;
+        font-size: 20px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-align: left;
+    }
+
+    .mainSectionOfferArticleP {
+        color: #000000;
+        font-size: 20px;
+        text-align: justify;
+        flex: 1 100%;
+        background-color: rgb(215, 220, 250);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .mainSectionOfferArticleP {
+        color: #000000;
+        font-size: 20px;
+        text-align: justify;
+        flex: 1 100%;
+        background-color: rgb(215, 220, 250);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .mainSectionOfferArticleUnorderedList {
+        flex: 1 50%;
+        background-color: aqua;
+    }
+
+    .mainSectionOfferArticleUnorderedList {
+        flex: 1 50%;
+        background-color: aqua;
+    }
+
+    .mainSectionOfferArticleUnorderedListListItem {
+        color: #000000;
+        font-size: 18px;
+        list-style-type: none;
+        /* margin-left: 5px; */
+        padding-top: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: left;
+    }
+
+    .mainSectionOfferArticleUnorderedListListItem {
+        color: #000000;
+        font-size: 18px;
+        list-style-type: none;
+        /* margin-left: 5px; */
+        padding-top: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: left;
+    }
+
+    .mainSectionOfferArticleAside {
+        background-color: #fdb7b7;
+        flex: 1 50%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .mainSectionOfferArticleAside {
+        background-color: #fdb7b7;
+        flex: 1 50%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .mainSectionOfferArticleAsideHeader {
+        /* width: 250px; */
+    }
+
+    .mainSectionOfferArticleAsideHeader {
+        /* width: 250px; */
+    }
+
+    .mainSectionOfferArticleAsideHeaderH2 {
+        font-size: 40px;
+        /* margin: 15px; */
+        text-align: center;
+        color: #ff0000;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .mainSectionOfferArticleAsideHeaderH2 {
+        font-size: 40px;
+        /* margin: 15px; */
+        text-align: center;
+        color: #ff0000;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .mainSectionOfferArticleAsideP {
+        color: #000000;
+        font-size: 14px;
+        /* margin: 15px; */
+        text-align: left;
+        /* width: 40px; */
+        color: #000000;
+        font-size: 14px;
+        /* margin-bottom: 15px; */
+        /* margin-left: 15px; */
+        /* padding-right: 5px; */
+        /* padding-left: 5px; */
+        text-align: justify;
+        flex: 1 40%;
+    }
+
+    .mainSectionOfferArticleAsideP {
+        color: #000000;
+        font-size: 14px;
+        /* margin: 15px; */
+        text-align: left;
+        /* width: 40px; */
+        color: #000000;
+        font-size: 14px;
+        /* margin-bottom: 15px; */
+        /* margin-left: 15px; */
+        /* padding-right: 5px; */
+        /* padding-left: 5px; */
+        text-align: justify;
+        flex: 1 40%;
+    }
+
+    .mainSectionOfferDetails {
+        width: 539px;
+    }
+
+    .mainSectionOfferOfferDetails {
+        width: 539px;
+    }
+
+    .mainSectionOfferDetails[open] summary::after {
+        content: attr(data-open);
+    }
+
+    .mainSectionOfferDetails[open] summary::after {
+        content: attr(data-open);
+    }
+
+    .mainSectionOfferDetails:not([open]) summary::after {
+        content: attr(data-close);
+    }
+
+    .mainSectionOfferDetails:not([open]) summary::after {
+        content: attr(data-close);
+    }
+
+    .mainSectionOfferDetailsSummary {
+        cursor: pointer;
+        font-size: 16px;
+        list-style: none;
+        margin: 15px;
+        outline: 0;
+        width: 260px;
+        display: none;
+    }
+
+    .mainSectionOfferDetailsSummary {
+        cursor: pointer;
+        font-size: 16px;
+        list-style: none;
+        margin: 15px;
+        outline: 0;
+        width: 260px;
+        display: none;
+    }
+
+    .mainSectionOfferDetailsSummary::-webkit-details-marker {
+        display: none;
+    }
+
+    .mainSectionOfferDetailsSummary:after {
+        color: #ff2626;
+    }
+
+    .mainSectionOfferDetailsHeader {
+        /* width: 539px; */
+    }
+
+    .mainSectionOfferDetailsHeaderH2 {
+        color: #ff0000;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .mainSectionOfferDetailsP {
+        font-size: 14px;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+
+    .mainSectionOfferArticleTable {
+        margin-top: 15px;
+        flex: 1 50%;
+        padding-right: 15px;
+        /* width: 539px; */
+    }
+
+    .mainSectionOfferArticleTableTr:nth-child(odd) {
+        background-color: #ffa4a4;
+        /* width: 539px; */
+    }
+
+    .mainSectionOfferArticleTableTrThHeaderH2 {
+        background-color: #ff0000;
+        color: #ffffff;
+        font-size: 15px;
+        margin: 0px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .mainSectionOfferArticleTableTrTdP {
+        color: #000000;
+        font-size: 10px;
+        margin: 0px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .mainSectionOfferArticleIframe {
+        margin-top: 15px;
+        /* width: 539px; */
+        flex: 1 30%;
+    }
+
+    .footer {
+        background-color: #ff2626;
+        width: 100%;
+    }
+
+    .footerSection {
+        align-items: center;
+        display: flex;
+        /* margin-left: 15px; */
+        /* margin-right: 15px; */
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+
+    .footerSectionHeader {
+        justify-content: space-around;
+        margin: 5px;
+    }
+
+    .footerSectionImg {
+        height: 35px;
+        justify-content: space-around;
+        width: 35px;
+    }
+
+    .footerSectionHeaderP {
+        color: #f5f5dc;
+        font-size: 15px;
+    }
+
+    .footerSectionHeaderH2 {
+        color: #ffffff;
+        font-size: 15px;
+    }
+}
