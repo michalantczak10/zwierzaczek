@@ -16,29 +16,51 @@
 
     .header {
         margin: 0 auto;
-        width: 100%;
+        width: 320px;
     }
 
     .headerSection {
-        width: 100%;
+        width: 320px;
         padding-left: 10px;
         padding-right: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
 
+    .headerSectionHeader {
+        display: flex;
+        width: 300px;
+    }
+
     .headerSectionImg {
-        width: 100%;
+        width: 300px;
     }
 
     .main {
         margin: 0 auto;
-        width: 290px;
+        width: 320px;
+    }
+
+    .mainSection {
+        width: 320px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .mainSectionHr {
+        width: 300px;
     }
 
     .mainSectionHeader {
         display: flex;
-        width: 290px;
+        width: 300px;
+    }
+
+    .mainSectionHeaderH1 {
+        font-size: 25px;
+        text-align: left;
     }
 
     .mainSectionHeaderImg {
@@ -47,29 +69,15 @@
         width: 30px;
     }
 
-    .mainSectionHeaderH1 {
-        font-size: 25px;
-        text-align: left;
+    .mainSectionArticle {
+        width: 300px;
     }
 
-    .mainSectionSelect {
-        width: 290px;
+    .mainSectionArticleHeader {
+        width: 300px;
     }
 
-
-    .mainSectionOfferArticle {
-        width: 290px;
-    }
-
-    .mainSectionOfferArticleAside {
-        display: none;
-    }
-
-    .mainSectionOfferArticleHeader {
-        width: 290px;
-    }
-
-    .mainSectionOfferArticleHeaderH2 {
+    .mainSectionArticleHeaderH2 {
         color: #ff0000;
         font-size: 20px;
         margin-bottom: 15px;
@@ -77,40 +85,25 @@
         text-align: left;
     }
 
-    .mainSectionOfferArticleP {
+    .mainSectionArticleP {
         color: #000000;
         font-size: 20px;
         text-align: justify;
     }
 
-    .mainSectionOfferArticleUnorderedList {
-        width: 290px;
-    }
-
-    .mainSectionOfferArticleUnorderedListListItem {
-        color: #000000;
-        font-size: 18px;
-        list-style-type: none;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-top: 0px;
-        text-align: left;
-        width: 290px;
-    }
-
-    .mainSectionOfferArticleUnorderedListListItemImg {
+    .mainSectionArticleImg {
         margin-left: 0px;
         margin-right: 0px;
         padding-top: 0px;
         padding-left: 0px;
         padding-right: 0px;
         text-align: left;
-        width: 290px;
+        width: 300px;
     }
 
-    .mainSectionOfferArticleAside {
+    .mainSectionArticleAside {
+        display: none;
         background-color: #fdb7b7;
-        /* flex: 33.3%; */
         justify-content: space-around;
         margin-bottom: 25px;
         margin-left: 60px;
@@ -118,36 +111,36 @@
         margin-top: 25px;
     }
 
-    .mainSectionOfferArticleAsideHeader {
-        width: 290px;
+    .mainSectionArticleAsideHeader {
+        width: 300px;
     }
 
-    .mainSectionOfferArticleAsideHeaderH2 {
+    .mainSectionArticleAsideHeaderH2 {
         font-size: 40px;
         margin: 15px;
         text-align: center;
     }
 
-    .mainSectionOfferArticleAsideP {
+    .mainSectionArticleAsideP {
         color: #000000;
         font-size: 14px;
         margin: 15px;
         text-align: left;
     }
 
-    .mainSectionOfferDetails {
+    .mainSectionDetails {
         width: 290px;
     }
 
-    .mainSectionOfferDetails[open] summary::after {
+    .mainSectionDetails[open] summary::after {
         content: attr(data-open);
     }
 
-    .mainSectionOfferDetails:not([open]) summary::after {
+    .mainSectionDetails:not([open]) summary::after {
         content: attr(data-close);
     }
 
-    .mainSectionOfferDetailsSummary {
+    .mainSectionDetailsSummary {
         cursor: pointer;
         font-size: 16px;
         list-style: none;
@@ -156,19 +149,19 @@
         width: 260px;
     }
 
-    .mainSectionOfferDetailsSummary::-webkit-details-marker {
+    .mainSectionDetailsSummary::-webkit-details-marker {
         display: none;
     }
 
-    .mainSectionOfferDetailsSummary:after {
+    .mainSectionDetailsSummary:after {
         color: #ff2626;
     }
 
-    .mainSectionOfferDetailsHeader {
+    .mainSectionDetailsHeader {
         width: 290px;
     }
 
-    .mainSectionOfferDetailsHeaderH2 {
+    .mainSectionDetailsHeaderH2 {
         color: #ff0000;
         font-size: 20px;
         margin-top: 15px;
@@ -176,731 +169,19 @@
         text-align: center;
     }
 
-    .mainSectionOfferDetailsP {
+    .mainSectionDetailsP {
         font-size: 14px;
         margin-bottom: 15px;
         text-align: justify;
     }
 
-    .mainSectionOfferArticleTable {
-        margin-top: 15px;
-        width: 290px;
-    }
-
-    .mainSectionOfferArticleTableTr:nth-child(odd) {
-        background-color: #ffa4a4;
-        width: 290px;
-    }
-
-    .mainSectionOfferArticleTableTrThHeaderH2 {
-        background-color: #ff0000;
-        color: #ffffff;
-        font-size: 15px;
-        margin: 0px;
-        padding: 5px;
-        text-align: center;
-    }
-
-    .mainSectionOfferArticleTableTrTdP {
-        color: #000000;
-        font-size: 10px;
-        margin: 0px;
-        padding: 5px;
-        text-align: center;
-    }
-
-    .mainSectionOfferArticleIframe {
-        margin-top: 15px;
-        width: 290px;
-    }
-
-    .mainSectionPriceList {
-        width: 290px;
-    }
-
-    .mainSectionPriceListHr {
-        margin: 0px;
-    }
-
-    .mainSectionPriceListHeader {
-        display: flex;
-        width: 290px;
-    }
-
-    .mainSectionPriceListHeaderH1 {
-        font-size: 25px;
-        text-align: left;
-    }
-
-    .mainSectionPriceListHeaderImg {
-        height: 30px;
-        padding-top: 3px;
-        width: 30px;
-    }
-
-    .mainSectionPriceListArticle {
-        width: 290px;
-    }
-
-    .mainSectionPriceListArticleAside {
-        display: none;
-    }
-
-    .mainSectionPriceListArticleHeader {
-        width: 290px;
-    }
-
-    .mainSectionPriceListArticleHeaderH2 {
-        color: #ff0000;
-        font-size: 20px;
-        margin-bottom: 15px;
-        margin-top: 15px;
-        text-align: left;
-    }
-
-    .mainSectionPriceListArticleP {
-        color: #000000;
-        font-size: 20px;
-        text-align: justify;
-    }
-
-    .mainSectionPriceListArticleUnorderedList {
-        width: 290px;
-    }
-
-    .mainSectionPriceListArticleUnorderedListListItem {
-        color: #000000;
-        font-size: 18px;
-        list-style-type: none;
-        margin-left: 5px;
-        padding-top: 5px;
-        text-align: left;
-        width: 290px;
-    }
-
-    .mainSectionPriceListArticleAside {
-        background-color: #fdb7b7;
-        /* flex: 33.3%; */
-        justify-content: space-around;
-        margin-bottom: 25px;
-        margin-left: 60px;
-        margin-right: 25px;
-        margin-top: 25px;
-    }
-
-    .mainSectionPriceListArticleAsideHeader {
-        width: 290px;
-    }
-
-    .mainSectionPriceListArticleAsideHeaderH2 {
-        font-size: 40px;
-        margin: 15px;
-        text-align: center;
-    }
-
-    .mainSectionPriceListArticleAsideP {
-        color: #000000;
-        font-size: 14px;
-        margin: 15px;
-        text-align: left;
-    }
-
-    .mainSectionPriceListDetails {
-        width: 290px;
-    }
-
-    .mainSectionPriceListDetails[open] summary::after {
-        content: attr(data-open);
-    }
-
-    .mainSectionPriceListDetails:not([open]) summary::after {
-        content: attr(data-close);
-    }
-
-    .mainSectionPriceListDetailsSummary {
-        cursor: pointer;
-        font-size: 16px;
-        list-style: none;
-        margin: 15px;
-        outline: 0;
-        width: 260px;
-    }
-
-    .mainSectionPriceListDetailsSummary::-webkit-details-marker {
-        display: none;
-    }
-
-    .mainSectionPriceListDetailsSummary:after {
-        color: #ff2626;
-    }
-
-    .mainSectionPriceListDetailsHeader {
-        width: 290px;
-    }
-
-    .mainSectionPriceListDetailsHeaderH2 {
-        color: #ff0000;
-        font-size: 20px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        text-align: center;
-    }
-
-    .mainSectionPriceListDetailsP {
-        font-size: 14px;
-        margin-bottom: 15px;
-        text-align: justify;
-    }
-
-    .mainSectionPriceListArticleTable {
-        margin-top: 15px;
-        width: 290px;
-    }
-
-    .mainSectionPriceListArticleTableTr:nth-child(odd) {
-        background-color: #ffa4a4;
-        width: 290px;
-    }
-
-    .mainSectionPriceListArticleTableTrThHeaderH2 {
-        background-color: #ff0000;
-        color: #ffffff;
-        font-size: 15px;
-        margin: 0px;
-        padding: 5px;
-        text-align: center;
-    }
-
-    .mainSectionPriceListArticleTableTrTdP {
-        color: #000000;
-        font-size: 10px;
-        margin: 0px;
-        padding: 5px;
-        text-align: center;
-    }
-
-    .mainSectionPriceListArticleIframe {
-        margin-top: 15px;
-        width: 290px;
-    }
-
-    .mainSectionDrive {
-        width: 290px;
-    }
-
-    .mainSectionDriveHr {
-        margin: 0px;
-    }
-
-    .mainSectionDriveHeader {
-        display: flex;
-        width: 290px;
-    }
-
-    .mainSectionDriveHeaderH1 {
-        font-size: 25px;
-        text-align: left;
-    }
-
-    .mainSectionDriveHeaderImg {
-        height: 30px;
-        padding-top: 3px;
-        width: 30px;
-    }
-
-    .mainSectionDriveArticle {
-        width: 290px;
-    }
-
-    .mainSectionDriveArticleAside {
-        display: none;
-    }
-
-    .mainSectionDriveArticleHeader {
-        width: 290px;
-    }
-
-    .mainSectionDriveArticleHeaderH2 {
-        color: #ff0000;
-        font-size: 20px;
-        margin-bottom: 15px;
-        margin-top: 15px;
-        text-align: left;
-    }
-
-    .mainSectionDriveArticleP {
-        color: #000000;
-        font-size: 20px;
-        text-align: justify;
-    }
-
-    .mainSectionDriveArticleUnorderedList {
-        width: 290px;
-    }
-
-    .mainSectionDriveUnorderedListListItem {
-        color: #000000;
-        font-size: 18px;
-        list-style-type: none;
-        margin-left: 5px;
-        padding-top: 5px;
-        text-align: left;
-        width: 290px;
-    }
-
-    .mainSectionDriveArticleAside {
-        background-color: #fdb7b7;
-        /* flex: 33.3%; */
-        justify-content: space-around;
-        margin-bottom: 25px;
-        margin-left: 60px;
-        margin-right: 25px;
-        margin-top: 25px;
-    }
-
-    .mainSectionDriveArticleAsideHeader {
-        width: 290px;
-    }
-
-    .mainSectionDriveArticleAsideHeaderH2 {
-        font-size: 40px;
-        margin: 15px;
-        text-align: center;
-    }
-
-    .mainSectionDriveArticleAsideP {
-        color: #000000;
-        font-size: 14px;
-        margin: 15px;
-        text-align: left;
-    }
-
-    .mainSectionDriveDetails {
-        width: 290px;
-    }
-
-    .mainSectionDriveDetails[open] summary::after {
-        content: attr(data-open);
-    }
-
-    .mainSectionDriveDetails:not([open]) summary::after {
-        content: attr(data-close);
-    }
-
-    .mainSectionDriveDetailsSummary {
-        cursor: pointer;
-        font-size: 16px;
-        list-style: none;
-        margin: 15px;
-        outline: 0;
-        width: 260px;
-    }
-
-    .mainSectionDriveDetailsSummary::-webkit-details-marker {
-        display: none;
-    }
-
-    .mainSectionDriveDetailsSummary:after {
-        color: #ff2626;
-    }
-
-    .mainSectionDriveDetailsHeader {
-        width: 290px;
-    }
-
-    .mainSectionDriveDetailsHeaderH2 {
-        color: #ff0000;
-        font-size: 20px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        text-align: center;
-    }
-
-    .mainSectionDriveDetailsP {
-        font-size: 14px;
-        margin-bottom: 15px;
-        text-align: justify;
-    }
-
-    .mainSectionDriveArticleTable {
-        margin-top: 15px;
-        width: 290px;
-    }
-
-    .mainSectionDriveArticleTableTr:nth-child(odd) {
-        background-color: #ffa4a4;
-        width: 290px;
-    }
-
-    .mainSectionDriveArticleTableTrThHeaderH2 {
-        background-color: #ff0000;
-        color: #ffffff;
-        font-size: 15px;
-        margin: 0px;
-        padding: 5px;
-        text-align: center;
-    }
-
-    .mainSectionDriveArticleTableTrTdP {
-        color: #000000;
-        font-size: 10px;
-        margin: 0px;
-        padding: 5px;
-        text-align: center;
-    }
-
-    .mainSectionDriveArticleIframe {
-        margin-top: 15px;
-        width: 290px;
-    }
-
-    .mainSectionCooperate {
-        width: 290px;
-    }
-
-    .mainSectionCooperateHr {
-        margin: 0px;
-    }
-
-    .mainSectionCooperateHeader {
-        display: flex;
-        width: 290px;
-    }
-
-    .mainSectionCooperateHeaderH1 {
-        font-size: 25px;
-        text-align: left;
-    }
-
-    .mainSectionCooperateHeaderImg {
-        height: 30px;
-        padding-top: 3px;
-        width: 30px;
-    }
-
-    .mainSectionCooperateArticle {
-        width: 290px;
-    }
-
-    .mainSectionCooperateArticleAside {
-        display: none;
-    }
-
-    .mainSectionCooperateArticleHeader {
-        width: 290px;
-    }
-
-    .mainSectionCooperateArticleHeaderH2 {
-        color: #ff0000;
-        font-size: 20px;
-        margin-bottom: 15px;
-        margin-top: 15px;
-        text-align: left;
-    }
-
-    .mainSectionCooperateArticleP {
-        color: #000000;
-        font-size: 20px;
-        text-align: justify;
-    }
-
-    .mainSectionCooperateArticleUnorderedList {
-        width: 290px;
-    }
-
-    .mainSectionCooperateUnorderedListListItem {
-        color: #000000;
-        font-size: 18px;
-        list-style-type: none;
-        margin-left: 5px;
-        padding-top: 5px;
-        text-align: left;
-        width: 290px;
-    }
-
-    .mainSectionCooperateArticleAside {
-        background-color: #fdb7b7;
-        /* flex: 33.3%; */
-        justify-content: space-around;
-        margin-bottom: 25px;
-        margin-left: 60px;
-        margin-right: 25px;
-        margin-top: 25px;
-    }
-
-    .mainSectionCooperateArticleAsideHeader {
-        width: 290px;
-    }
-
-    .mainSectionCooperateArticleAsideHeaderH2 {
-        font-size: 40px;
-        margin: 15px;
-        text-align: center;
-    }
-
-    .mainSectionCooperateArticleAsideP {
-        color: #000000;
-        font-size: 14px;
-        margin: 15px;
-        text-align: left;
-    }
-
-    .mainSectionCooperateDetails {
-        width: 290px;
-    }
-
-    .mainSectionCooperateDetails[open] summary::after {
-        content: attr(data-open);
-    }
-
-    .mainSectionCooperateDetails:not([open]) summary::after {
-        content: attr(data-close);
-    }
-
-    .mainSectionCooperateDetailsSummary {
-        cursor: pointer;
-        font-size: 16px;
-        list-style: none;
-        margin: 15px;
-        outline: 0;
-        width: 260px;
-    }
-
-    .mainSectionCooperateDetailsSummary::-webkit-details-marker {
-        display: none;
-    }
-
-    .mainSectionCooperateDetailsSummary:after {
-        color: #ff2626;
-    }
-
-    .mainSectionCooperateDetailsHeader {
-        width: 290px;
-    }
-
-    .mainSectionCooperateDetailsHeaderH2 {
-        color: #ff0000;
-        font-size: 20px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        text-align: center;
-    }
-
-    .mainSectionCooperateDetailsP {
-        font-size: 14px;
-        margin-bottom: 15px;
-        text-align: justify;
-    }
-
-    .mainSectionCooperateArticleTable {
-        margin-top: 15px;
-        width: 290px;
-    }
-
-    .mainSectionCooperateArticleTableTr:nth-child(odd) {
-        background-color: #ffa4a4;
-        width: 290px;
-    }
-
-    .mainSectionCooperateArticleTableTrThHeaderH2 {
-        background-color: #ff0000;
-        color: #ffffff;
-        font-size: 15px;
-        margin: 0px;
-        padding: 5px;
-        text-align: center;
-    }
-
-    .mainSectionCooperateArticleTableTrTdP {
-        color: #000000;
-        font-size: 10px;
-        margin: 0px;
-        padding: 5px;
-        text-align: center;
-    }
-
-    .mainSectionCooperateArticleIframe {
-        margin-top: 15px;
-        width: 290px;
-    }
-
-    .mainSectionAboutUs {
-        width: 290px;
-    }
-
-    .mainSectionAboutUsHr {
-        margin: 0px;
-    }
-
-    .mainSectionAboutUsHeader {
-        display: flex;
-        width: 290px;
-    }
-
-    .mainSectionAboutUsHeaderH1 {
-        font-size: 25px;
-        text-align: left;
-    }
-
-    .mainSectionAboutUsHeaderImg {
-        height: 30px;
-        padding-top: 3px;
-        width: 30px;
-    }
-
-    .mainSectionAboutUsArticle {
-        width: 290px;
-    }
-
-    .mainSectionAboutUsArticleAside {
-        display: none;
-    }
-
-    .mainSectionAboutUsArticleHeader {
-        width: 290px;
-    }
-
-    .mainSectionAboutUsArticleHeaderH2 {
-        color: #ff0000;
-        font-size: 20px;
-        margin-bottom: 15px;
-        margin-top: 15px;
-        text-align: left;
-    }
-
-    .mainSectionAboutUsArticleP {
-        color: #000000;
-        font-size: 20px;
-        text-align: justify;
-    }
-
-    .mainSectionAboutUsArticleUnorderedList {
-        width: 290px;
-    }
-
-    .mainSectionAboutUsUnorderedListListItem {
-        color: #000000;
-        font-size: 18px;
-        list-style-type: none;
-        margin-left: 5px;
-        padding-top: 5px;
-        text-align: left;
-        width: 290px;
-    }
-
-    .mainSectionAboutUsArticleAside {
-        background-color: #fdb7b7;
-        /* flex: 33.3%; */
-        justify-content: space-around;
-        margin-bottom: 25px;
-        margin-left: 60px;
-        margin-right: 25px;
-        margin-top: 25px;
-    }
-
-    .mainSectionAboutUsArticleAsideHeader {
-        width: 290px;
-    }
-
-    .mainSectionAboutUsArticleAsideHeaderH2 {
-        font-size: 40px;
-        margin: 15px;
-        text-align: center;
-    }
-
-    .mainSectionAboutUsArticleAsideP {
-        color: #000000;
-        font-size: 14px;
-        margin: 15px;
-        text-align: left;
-    }
-
-    .mainSectionAboutUsDetails {
-        width: 290px;
-    }
-
-    .mainSectionAboutUsDetails[open] summary::after {
-        content: attr(data-open);
-    }
-
-    .mainSectionAboutUsDetails:not([open]) summary::after {
-        content: attr(data-close);
-    }
-
-    .mainSectionAboutUsDetailsSummary {
-        cursor: pointer;
-        font-size: 16px;
-        list-style: none;
-        margin: 15px;
-        outline: 0;
-        width: 260px;
-    }
-
-    .mainSectionAboutUsDetailsSummary::-webkit-details-marker {
-        display: none;
-    }
-
-    .mainSectionAboutUsDetailsSummary:after {
-        color: #ff2626;
-    }
-
-    .mainSectionAboutUsDetailsHeader {
-        width: 290px;
-    }
-
-    .mainSectionAboutUsDetailsHeaderH2 {
-        color: #ff0000;
-        font-size: 20px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        text-align: center;
-    }
-
-    .mainSectionAboutUsDetailsP {
-        font-size: 14px;
-        margin-bottom: 15px;
-        text-align: justify;
-    }
-
-    .mainSectionAboutUsArticleTable {
-        margin-top: 15px;
-        width: 290px;
-    }
-
-    .mainSectionAboutUsArticleTableTr:nth-child(odd) {
-        background-color: #ffa4a4;
-        width: 290px;
-    }
-
-    .mainSectionAboutUsArticleTableTrThHeaderH2 {
-        background-color: #ff0000;
-        color: #ffffff;
-        font-size: 15px;
-        margin: 0px;
-        padding: 5px;
-        text-align: center;
-    }
-
-    .mainSectionAboutUsArticleTableTrTdP {
-        color: #000000;
-        font-size: 10px;
-        margin: 0px;
-        padding: 5px;
-        text-align: center;
-    }
-
-    .mainSectionAboutUsArticleIframe {
-        margin-top: 15px;
-        width: 290px;
-    }
-
-    .footer {
+    .mainSectionArticleFooter {
         background-color: #ff2626;
         margin: 0 auto;
-        width: 320px;
+        width: 300px;
     }
 
-    .footerSectionTelephone {
+    .mainSectionArticleFooterSection {
         align-items: center;
         display: flex;
         margin-left: 15px;
@@ -910,86 +191,23 @@
         width: 290px;
     }
 
-    .footerSectionTelephoneHeader {
+    .mainSectionArticleFooterSectionHeader {
         justify-content: space-around;
         margin: 5px;
     }
 
-    .footerSectionTelephoneImg {
+    .mainSectionArticleFooterSectionImg {
         height: 35px;
         justify-content: space-around;
         width: 35px;
     }
 
-    .footerSectionTelephoneHeaderP {
+    .mainSectionArticleFooterSectionHeaderP {
         color: #f5f5dc;
         font-size: 15px;
     }
 
-    .footerSectionTelephoneHeaderH2 {
-        color: #ffffff;
-        font-size: 15px;
-    }
-
-
-    .footerSectionEmail {
-        align-items: center;
-        display: flex;
-        margin-left: 15px;
-        margin-right: 15px;
-        padding-bottom: 5px;
-        padding-top: 5px;
-        width: 290px;
-    }
-
-    .footerSectionEmailHeader {
-        justify-content: space-around;
-        margin: 5px;
-    }
-
-    .footerSectionEmailImg {
-        height: 35px;
-        justify-content: space-around;
-        width: 35px;
-    }
-
-    .footerSectionEmailHeaderP {
-        color: #f5f5dc;
-        font-size: 15px;
-    }
-
-    .footerSectionEmailHeaderH2 {
-        color: #ffffff;
-        font-size: 15px;
-    }
-
-    .footerSectionAddress {
-        align-items: center;
-        display: flex;
-        margin-left: 15px;
-        margin-right: 15px;
-        padding-bottom: 5px;
-        padding-top: 5px;
-        width: 290px;
-    }
-
-    .footerSectionAddressHeader {
-        justify-content: space-around;
-        margin: 5px;
-    }
-
-    .footerSectionAddressImg {
-        height: 35px;
-        justify-content: space-around;
-        width: 35px;
-    }
-
-    .footerSectionAddressHeaderP {
-        color: #f5f5dc;
-        font-size: 15px;
-    }
-
-    .footerSectionAddressHeaderH2 {
+    .mainSectionArticleFooterSectionHeaderH2 {
         color: #ffffff;
         font-size: 15px;
     }

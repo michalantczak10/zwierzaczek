@@ -1,0 +1,1089 @@
+
+    .mainSectionPriceList {
+        width: 290px;
+    }
+
+    .mainSectionPriceListHr {
+        margin: 0px;
+    }
+
+    .mainSectionPriceListHeader {
+        display: flex;
+        width: 290px;
+    }
+
+    .mainSectionPriceListHeaderH1 {
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .mainSectionPriceListHeaderImg {
+        height: 30px;
+        padding-top: 3px;
+        width: 30px;
+    }
+
+    .mainSectionPriceListArticle {
+        width: 290px;
+    }
+
+    .mainSectionPriceListArticleAside {
+        display: none;
+    }
+
+    .mainSectionPriceListArticleHeader {
+        width: 290px;
+    }
+
+    .mainSectionPriceListArticleHeaderH2 {
+        color: #ff0000;
+        font-size: 20px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-align: left;
+    }
+
+    .mainSectionPriceListArticleP {
+        color: #000000;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .mainSectionPriceListArticleUnorderedList {
+        width: 290px;
+    }
+
+    .mainSectionPriceListArticleUnorderedListListItem {
+        color: #000000;
+        font-size: 18px;
+        list-style-type: none;
+        margin-left: 5px;
+        padding-top: 5px;
+        text-align: left;
+        width: 290px;
+    }
+
+    .mainSectionPriceListArticleAside {
+        background-color: #fdb7b7;
+        /* flex: 33.3%; */
+        justify-content: space-around;
+        margin-bottom: 25px;
+        margin-left: 60px;
+        margin-right: 25px;
+        margin-top: 25px;
+    }
+
+    .mainSectionPriceListArticleAsideHeader {
+        width: 290px;
+    }
+
+    .mainSectionPriceListArticleAsideHeaderH2 {
+        font-size: 40px;
+        margin: 15px;
+        text-align: center;
+    }
+
+    .mainSectionPriceListArticleAsideP {
+        color: #000000;
+        font-size: 14px;
+        margin: 15px;
+        text-align: left;
+    }
+
+    .mainSectionPriceListDetails {
+        width: 290px;
+    }
+
+    .mainSectionPriceListDetails[open] summary::after {
+        content: attr(data-open);
+    }
+
+    .mainSectionPriceListDetails:not([open]) summary::after {
+        content: attr(data-close);
+    }
+
+    .mainSectionPriceListDetailsSummary {
+        cursor: pointer;
+        font-size: 16px;
+        list-style: none;
+        margin: 15px;
+        outline: 0;
+        width: 260px;
+    }
+
+    .mainSectionPriceListDetailsSummary::-webkit-details-marker {
+        display: none;
+    }
+
+    .mainSectionPriceListDetailsSummary:after {
+        color: #ff2626;
+    }
+
+    .mainSectionPriceListDetailsHeader {
+        width: 290px;
+    }
+
+    .mainSectionPriceListDetailsHeaderH2 {
+        color: #ff0000;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .mainSectionPriceListDetailsP {
+        font-size: 14px;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+
+    .mainSectionPriceListArticleTable {
+        margin-top: 15px;
+        width: 290px;
+    }
+
+    .mainSectionPriceListArticleTableTr:nth-child(odd) {
+        background-color: #ffa4a4;
+        width: 290px;
+    }
+
+    .mainSectionPriceListArticleTableTrThHeaderH2 {
+        background-color: #ff0000;
+        color: #ffffff;
+        font-size: 15px;
+        margin: 0px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .mainSectionPriceListArticleTableTrTdP {
+        color: #000000;
+        font-size: 10px;
+        margin: 0px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .mainSectionPriceListArticleIframe {
+        margin-top: 15px;
+        width: 290px;
+    }
+
+    .mainSectionDrive {
+        width: 290px;
+    }
+
+    .mainSectionDriveHr {
+        margin: 0px;
+    }
+
+    .mainSectionDriveHeader {
+        display: flex;
+        width: 290px;
+    }
+
+    .mainSectionDriveHeaderH1 {
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .mainSectionDriveHeaderImg {
+        height: 30px;
+        padding-top: 3px;
+        width: 30px;
+    }
+
+    .mainSectionDriveArticle {
+        width: 290px;
+    }
+
+    .mainSectionDriveArticleAside {
+        display: none;
+    }
+
+    .mainSectionDriveArticleHeader {
+        width: 290px;
+    }
+
+    .mainSectionDriveArticleHeaderH2 {
+        color: #ff0000;
+        font-size: 20px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-align: left;
+    }
+
+    .mainSectionDriveArticleP {
+        color: #000000;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .mainSectionDriveArticleUnorderedList {
+        width: 290px;
+    }
+
+    .mainSectionDriveUnorderedListListItem {
+        color: #000000;
+        font-size: 18px;
+        list-style-type: none;
+        margin-left: 5px;
+        padding-top: 5px;
+        text-align: left;
+        width: 290px;
+    }
+
+    .mainSectionDriveArticleAside {
+        background-color: #fdb7b7;
+        /* flex: 33.3%; */
+        justify-content: space-around;
+        margin-bottom: 25px;
+        margin-left: 60px;
+        margin-right: 25px;
+        margin-top: 25px;
+    }
+
+    .mainSectionDriveArticleAsideHeader {
+        width: 290px;
+    }
+
+    .mainSectionDriveArticleAsideHeaderH2 {
+        font-size: 40px;
+        margin: 15px;
+        text-align: center;
+    }
+
+    .mainSectionDriveArticleAsideP {
+        color: #000000;
+        font-size: 14px;
+        margin: 15px;
+        text-align: left;
+    }
+
+    .mainSectionDriveDetails {
+        width: 290px;
+    }
+
+    .mainSectionDriveDetails[open] summary::after {
+        content: attr(data-open);
+    }
+
+    .mainSectionDriveDetails:not([open]) summary::after {
+        content: attr(data-close);
+    }
+
+    .mainSectionDriveDetailsSummary {
+        cursor: pointer;
+        font-size: 16px;
+        list-style: none;
+        margin: 15px;
+        outline: 0;
+        width: 260px;
+    }
+
+    .mainSectionDriveDetailsSummary::-webkit-details-marker {
+        display: none;
+    }
+
+    .mainSectionDriveDetailsSummary:after {
+        color: #ff2626;
+    }
+
+    .mainSectionDriveDetailsHeader {
+        width: 290px;
+    }
+
+    .mainSectionDriveDetailsHeaderH2 {
+        color: #ff0000;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .mainSectionDriveDetailsP {
+        font-size: 14px;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+
+    .mainSectionDriveArticleTable {
+        margin-top: 15px;
+        width: 290px;
+    }
+
+    .mainSectionDriveArticleTableTr:nth-child(odd) {
+        background-color: #ffa4a4;
+        width: 290px;
+    }
+
+    .mainSectionDriveArticleTableTrThHeaderH2 {
+        background-color: #ff0000;
+        color: #ffffff;
+        font-size: 15px;
+        margin: 0px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .mainSectionDriveArticleTableTrTdP {
+        color: #000000;
+        font-size: 10px;
+        margin: 0px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .mainSectionDriveArticleIframe {
+        margin-top: 15px;
+        width: 290px;
+    }
+
+    .mainSectionCooperate {
+        width: 290px;
+    }
+
+    .mainSectionCooperateHr {
+        margin: 0px;
+    }
+
+    .mainSectionCooperateHeader {
+        display: flex;
+        width: 290px;
+    }
+
+    .mainSectionCooperateHeaderH1 {
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .mainSectionCooperateHeaderImg {
+        height: 30px;
+        padding-top: 3px;
+        width: 30px;
+    }
+
+    .mainSectionCooperateArticle {
+        width: 290px;
+    }
+
+    .mainSectionCooperateArticleAside {
+        display: none;
+    }
+
+    .mainSectionCooperateArticleHeader {
+        width: 290px;
+    }
+
+    .mainSectionCooperateArticleHeaderH2 {
+        color: #ff0000;
+        font-size: 20px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-align: left;
+    }
+
+    .mainSectionCooperateArticleP {
+        color: #000000;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .mainSectionCooperateArticleUnorderedList {
+        width: 290px;
+    }
+
+    .mainSectionCooperateUnorderedListListItem {
+        color: #000000;
+        font-size: 18px;
+        list-style-type: none;
+        margin-left: 5px;
+        padding-top: 5px;
+        text-align: left;
+        width: 290px;
+    }
+
+    .mainSectionCooperateArticleAside {
+        background-color: #fdb7b7;
+        /* flex: 33.3%; */
+        justify-content: space-around;
+        margin-bottom: 25px;
+        margin-left: 60px;
+        margin-right: 25px;
+        margin-top: 25px;
+    }
+
+    .mainSectionCooperateArticleAsideHeader {
+        width: 290px;
+    }
+
+    .mainSectionCooperateArticleAsideHeaderH2 {
+        font-size: 40px;
+        margin: 15px;
+        text-align: center;
+    }
+
+    .mainSectionCooperateArticleAsideP {
+        color: #000000;
+        font-size: 14px;
+        margin: 15px;
+        text-align: left;
+    }
+
+    .mainSectionCooperateDetails {
+        width: 290px;
+    }
+
+    .mainSectionCooperateDetails[open] summary::after {
+        content: attr(data-open);
+    }
+
+    .mainSectionCooperateDetails:not([open]) summary::after {
+        content: attr(data-close);
+    }
+
+    .mainSectionCooperateDetailsSummary {
+        cursor: pointer;
+        font-size: 16px;
+        list-style: none;
+        margin: 15px;
+        outline: 0;
+        width: 260px;
+    }
+
+    .mainSectionCooperateDetailsSummary::-webkit-details-marker {
+        display: none;
+    }
+
+    .mainSectionCooperateDetailsSummary:after {
+        color: #ff2626;
+    }
+
+    .mainSectionCooperateDetailsHeader {
+        width: 290px;
+    }
+
+    .mainSectionCooperateDetailsHeaderH2 {
+        color: #ff0000;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .mainSectionCooperateDetailsP {
+        font-size: 14px;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+
+    .mainSectionCooperateArticleTable {
+        margin-top: 15px;
+        width: 290px;
+    }
+
+    .mainSectionCooperateArticleTableTr:nth-child(odd) {
+        background-color: #ffa4a4;
+        width: 290px;
+    }
+
+    .mainSectionCooperateArticleTableTrThHeaderH2 {
+        background-color: #ff0000;
+        color: #ffffff;
+        font-size: 15px;
+        margin: 0px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .mainSectionCooperateArticleTableTrTdP {
+        color: #000000;
+        font-size: 10px;
+        margin: 0px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .mainSectionCooperateArticleIframe {
+        margin-top: 15px;
+        width: 290px;
+    }
+
+    .mainSectionAboutUs {
+        width: 290px;
+    }
+
+    .mainSectionAboutUsHr {
+        margin: 0px;
+    }
+
+    .mainSectionAboutUsHeader {
+        display: flex;
+        width: 290px;
+    }
+
+    .mainSectionAboutUsHeaderH1 {
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .mainSectionAboutUsHeaderImg {
+        height: 30px;
+        padding-top: 3px;
+        width: 30px;
+    }
+
+    .mainSectionAboutUsArticle {
+        width: 290px;
+    }
+
+    .mainSectionAboutUsArticleAside {
+        display: none;
+    }
+
+    .mainSectionAboutUsArticleHeader {
+        width: 290px;
+    }
+
+    .mainSectionAboutUsArticleHeaderH2 {
+        color: #ff0000;
+        font-size: 20px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-align: left;
+    }
+
+    .mainSectionAboutUsArticleP {
+        color: #000000;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .mainSectionAboutUsArticleUnorderedList {
+        width: 290px;
+    }
+
+    .mainSectionAboutUsUnorderedListListItem {
+        color: #000000;
+        font-size: 18px;
+        list-style-type: none;
+        margin-left: 5px;
+        padding-top: 5px;
+        text-align: left;
+        width: 290px;
+    }
+
+    .mainSectionAboutUsArticleAside {
+        background-color: #fdb7b7;
+        /* flex: 33.3%; */
+        justify-content: space-around;
+        margin-bottom: 25px;
+        margin-left: 60px;
+        margin-right: 25px;
+        margin-top: 25px;
+    }
+
+    .mainSectionAboutUsArticleAsideHeader {
+        width: 290px;
+    }
+
+    .mainSectionAboutUsArticleAsideHeaderH2 {
+        font-size: 40px;
+        margin: 15px;
+        text-align: center;
+    }
+
+    .mainSectionAboutUsArticleAsideP {
+        color: #000000;
+        font-size: 14px;
+        margin: 15px;
+        text-align: left;
+    }
+
+    .mainSectionAboutUsDetails {
+        width: 290px;
+    }
+
+    .mainSectionAboutUsDetails[open] summary::after {
+        content: attr(data-open);
+    }
+
+    .mainSectionAboutUsDetails:not([open]) summary::after {
+        content: attr(data-close);
+    }
+
+    .mainSectionAboutUsDetailsSummary {
+        cursor: pointer;
+        font-size: 16px;
+        list-style: none;
+        margin: 15px;
+        outline: 0;
+        width: 260px;
+    }
+
+    .mainSectionAboutUsDetailsSummary::-webkit-details-marker {
+        display: none;
+    }
+
+    .mainSectionAboutUsDetailsSummary:after {
+        color: #ff2626;
+    }
+
+    .mainSectionAboutUsDetailsHeader {
+        width: 290px;
+    }
+
+    .mainSectionAboutUsDetailsHeaderH2 {
+        color: #ff0000;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .mainSectionAboutUsDetailsP {
+        font-size: 14px;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+
+    .mainSectionAboutUsArticleTable {
+        margin-top: 15px;
+        width: 290px;
+    }
+
+    .mainSectionAboutUsArticleTableTr:nth-child(odd) {
+        background-color: #ffa4a4;
+        width: 290px;
+    }
+
+    .mainSectionAboutUsArticleTableTrThHeaderH2 {
+        background-color: #ff0000;
+        color: #ffffff;
+        font-size: 15px;
+        margin: 0px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .mainSectionAboutUsArticleTableTrTdP {
+        color: #000000;
+        font-size: 10px;
+        margin: 0px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .mainSectionAboutUsArticleIframe {
+        margin-top: 15px;
+        width: 290px;
+    }
+
+
+
+        <!-- <header class="header">
+        <section class="headerSection">
+            <img class="headerSectionImg" src="./svg/logo.svg" alt="ZWIERZACZEK">
+        </section>
+    </header> -->
+
+    <!-- <a href="connect.php">ť lista samochodów</a> -->
+
+    <!-- <form action="/action_page.php">
+        <select class="mainSectionSelect">
+            <option value="OSTATNIO DODANE OFERTY">OSTATNIO DODANE OFERTY</option>
+            <option value="OFERTY Z KONKRETNEGO OKRESU">OFERTY Z KONKRETNEGO OKRESU</option>
+            <option value="WOJEWÓDZTWO">WOJEWÓDZTWO</option>
+            <option value="MIASTO">MIASTO</option>
+        </select>
+        <label for="countLastOffers">ILOŚĆ WYŚWIETLANYCH OFERT</label>
+        <input type="number" id="countLastOffers">
+    </form> -->
+
+    <!-- 
+        <section class="mainSectionPriceList">
+            <hr class="mainSectionPriceListHr">
+            <header class="mainSectionPriceListHeader">
+                <h1 class="mainSectionPriceListHeaderH1">CENNIK</h1>
+                <img src="./svg/priceList.svg" class="mainSectionPriceListHeaderImg" alt="CENNIK">
+            </header>
+            <hr class="mainSectionPriceListHr">
+            <article class="mainSectionPriceListArticle">
+                <table class="mainSectionPriceListArticleTable" cellspacing="0" cellpadding="0">
+                    <tr class="mainSectionPriceListArticleTableTr">
+                        <th class="mainSectionPriceListArticleTableTrTh">
+                            <header class="mainSectionPriceListArticleTableTrThHeader">
+                                <h2 class="mainSectionPriceListArticleTableTrThHeaderH2">POJAZD</h2>
+                            </header>
+                        </th>
+                        <th class="mainSectionPriceListArticleTableTrTh">
+                            <header class="mainSectionPriceListArticleTableTrThHeader">
+                                <h2 class="mainSectionPriceListArticleTableTrThHeaderH2">GODZINA</h2>
+                            </header>
+                        </th>
+                        <th class="mainSectionPriceListArticleTableTrTh">
+                            <header class="mainSectionPriceListArticleTableTrThHeader">
+                                <h2 class="mainSectionPriceListArticleTableTrThHeaderH2">DOBA</h2>
+                            </header>
+                        </th>
+                        <th class="mainSectionPriceListArticleTableTrTh">
+                            <header class="mainSectionPriceListArticleTableTrThHeader">
+                                <h2 class="mainSectionPriceListArticleTableTrThHeaderH2">MIESIĄC</h2>
+                            </header>
+                        </th>
+                    </tr>
+                    <tr class="mainSectionPriceListArticleTableTr">
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">SAMOCHÓD OSOBOWY</p>
+                        </td>
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">2 ZŁ</p>
+                        </td>
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">25 ZŁ</p>
+                        </td>
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">123 ZŁ</p>
+                        </td>
+                    </tr>
+                    <tr class="mainSectionPriceListArticleTableTr">
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">MOTOCYKL</p>
+                        </td>
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">2 ZŁ</p>
+                        </td>
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">18 ZŁ</p>
+                        </td>
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">100 ZŁ</p>
+                        </td>
+                    </tr>
+                    <tr class="mainSectionPriceListArticleTableTr">
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">SAMOCHÓD CIĘŻAROWY BEZ NACZEPY</p>
+                        </td>
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">5 ZŁ</p>
+                        </td>
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">50 ZŁ</p>
+                        </td>
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">250 ZŁ</p>
+                        </td>
+                    </tr>
+                    <tr class="mainSectionPriceListArticleTableTr">
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">SAMOCHÓD CIĘŻAROWY Z NACZEPĄ - TIR</p>
+                        </td>
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">10 ZŁ</p>
+                        </td>
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">60 ZŁ</p>
+                        </td>
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">310 ZŁ</p>
+                        </td>
+                    </tr>
+                    <tr class="mainSectionPriceListArticleTableTr">
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">BUS</p>
+                        </td>
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">3 ZŁ</p>
+                        </td>
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">30 ZŁ</p>
+                        </td>
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">185 ZŁ</p>
+                        </td>
+                    </tr>
+                    <tr class="mainSectionPriceListArticleTableTr">
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">AUTOKAR</p>
+                        </td>
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">10 ZŁ</p>
+                        </td>
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">60 ZŁ</p>
+                        </td>
+                        </td>
+                        <td class="mainSectionPriceListArticleTableTrTd">
+                            <p class="mainSectionPriceListArticleTableTrTdP">370 ZŁ</p>
+                        </td>
+                    </tr>
+                </table>
+                <aside class="mainSectionPriceListArticleAside">
+                    <header class="mainSectionPriceListArticleAsideHeader">
+                        <h2 class="mainSectionPriceListArticleAsideHeaderH2">OBOWIĄZYWANIE CENNIKA</h2>
+                    </header>
+                    <p class="mainSectionPriceListArticleAsideP">&ensp;CENNIK OBOWIĄZUJE OD 15.03.2020</p>
+                </aside>
+            </article>
+            <details class="mainSectionPriceListDetails">
+                <summary class="mainSectionPriceListDetailsSummary" data-open="MNIEJ ..." data-close="WIĘCEJ ...">
+                </summary>
+                <header class="mainSectionPriceListDetailsHeader">
+                    <h2 class="mainSectionPriceListDetailsHeaderH2">
+                        OBOWIĄZYWANIE CENNIKA
+                    </h2>
+                </header>
+                <p class="mainSectionPriceListDetailsP">&ensp;CENNIK OBOWIĄZUJE OD 15.03.2020</p>
+            </details>
+        </section>
+        <section class="mainSectionDrive">
+            <hr class="mainSectionDriveHr">
+            <header class="mainSectionDriveHeader">
+                <h1 class="mainSectionDriveHeaderH1">DOJAZD</h1>
+                <img src="./svg/drive.svg" class="mainSectionDriveHeaderImg" alt="DOJAZD">
+            </header>
+            <hr class="mainSectionDriveHr">
+            <article class="mainSectionDriveArticle">
+                <header class="mainSectionDriveArticleHeader">
+                    <h2 class="mainSectionDriveArticleHeaderH2">MAPA DOJAZDU</h2>
+                </header>
+                <p class="mainSectionDriveArticleP twoColumns">&ensp;JEŚLI NIE WIESZ JAK DO NAS DOJECHAĆ, PONIŻSZA MAPKA
+                    CI POMOŻE.</p>
+                <iframe class="mainSectionDriveArticleIframe"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2470.3786132305813!2d19.4705665266168!3d51.74439994587564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471a34c11853a057%3A0xae8354121bb7d0d3!2zU3RhbmlzxYJhd2EgUHJ6eWJ5c3pld3NraWVnbyAyOCwgOTMtMTg5IMWBw7Nkxbo!5e0!3m2!1spl!2spl!4v1607882715388!5m2!1spl!2spl"
+                    frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+                </iframe>
+                <aside class="mainSectionDriveArticleAside">
+                    <header class="mainSectionDriveArticleAsideHeader">
+                        <h2 class="mainSectionDriveArticleAsideHeaderH2">POŁOŻENIE</h2>
+                    </header>
+                    <p class="mainSectionDriveArticleAsideP">&ensp;PARKING ZNAJDUJE SIĘ W DOSKONAŁEJ LOKALIZACJI
+                        ROZPOZNAWANEJ
+                        PRZEZ
+                        WIĘKSZOŚĆ ŁODZIAN.
+                        JEST
+                        POŁOŻONY
+                        NA
+                        SKRZYŻOWANIU ULIC BRZOZOWEJ I PRZYBYSZEWSKIEGO. POBLISKIE ULICE TO GRABOWA, SŁOWIAŃSKA,
+                        DĘBOWA,
+                        SOSNOWA,
+                        PRASKA I LUBELSKA. ULICA PRZYBYSZEWSKIEGO KRZYŻUJE SIĘ Z KILIŃSKIEGO.
+                    </p>
+                </aside>
+                <details class="mainSectionDriveDetails">
+                    <summary class="mainSectionDriveDetailsSummary" data-open="MNIEJ ..." data-close="WIĘCEJ ...">
+                    </summary>
+                    <header class="mainSectionDriveDetailsHeader">
+                        <h2 class="mainSectionDriveDetailsHeaderH2">POŁOŻENIE</h2>
+                    </header>
+                    <p class="mainSectionDriveDetailsP">&ensp;PARKING ZNAJDUJE SIĘ W DOSKONAŁEJ LOKALIZACJI
+                        ROZPOZNAWANEJ PRZEZ
+                        WIĘKSZOŚĆ ŁODZIAN.
+                        JEST
+                        POŁOŻONY
+                        NA
+                        SKRZYŻOWANIU ULIC BRZOZOWEJ I PRZYBYSZEWSKIEGO. POBLISKIE ULICE TO GRABOWA, SŁOWIAŃSKA,
+                        DĘBOWA,
+                        SOSNOWA,
+                        PRASKA I LUBELSKA. ULICA PRZYBYSZEWSKIEGO KRZYŻUJE SIĘ Z KILIŃSKIEGO.
+                    </p>
+                </details>
+            </article>
+        </section>
+        <section class="mainSectionCooperate">
+            <hr class="mainSectionCooperateHr">
+            <header class="mainSectionCooperateHeader">
+                <h1 class="mainSectionCooperateHeaderH1">WSPÓŁPRACA</h1>
+                <img src="./svg/cooperate.svg" class="mainSectionCooperateHeaderImg" alt="WSPÓŁPRACA">
+            </header>
+            <hr class="mainSectionCooperateHr">
+            <article class="mainSectionCooperateArticle">
+                <header class="mainSectionCooperateArticleHeader">
+                    <h2 class="mainSectionCooperateArticleHeaderH2">JAK ZACZĄĆ WSPÓŁPRACĘ</h2>
+                </header>
+                <p class="mainSectionCooperateArticleP twoColumns">&ensp;ZAINTERESOWANYCH PROSIMY O KONTAKT TELEFONICZNY
+                    LUB OSOBISTY NA TERENIE
+                    PARKINGU.</p>
+                <aside class="mainSectionCooperateArticleAside">
+                    <header class="mainSectionCooperateArticleAsideHeader">
+                        <h2 class="mainSectionCooperateArticleAsideHeaderH2">ZASADY WSPÓŁPRACY</h2>
+                    </header>
+                    <p class="mainSectionCooperateArticleAsideP">&ensp;OFERUJEMY WSPÓŁPRACĘ Z INNYMI FIRMAMI, POLEGAJĄCĄ
+                        NA
+                        UDOSTĘPNIENIU
+                        PRZESTRZENI
+                        REKLAMOWEJ.
+                        NASZA
+                        FIRMA
+                        UDOSTĘPNIA TAKĄ PRZESTRZEŃ NA OGRODZENIU PARKINGU I NA STRONIE INTERNETOWEJ.
+                    </p>
+                    <header class="mainSectionCooperateArticleAsideHeader">
+                        <h2 class="mainSectionCooperateArticleAsideHeaderH2">Z KIM WSPÓŁPRACUJEMY</h2>
+                    </header>
+                    <p class="mainSectionCooperateArticleAsideP">&ensp;JEŻELI PROWADZĄ PAŃSTWO WARSZTAT SAMOCHODOWY,
+                        KOMIS, LUB INNĄ
+                        DZIAŁALNOŚĆ ZWIĄZANĄ Z
+                        OBSŁUGA
+                        SAMOCHODÓW,
+                        JEST TO DOBRY SPOSÓB NA SKUTECZNĄ REKLAMĘ. WŁAŚCICIELI INSTYTUCJI O ODMIENNYM
+                        CHARAKTERZE,
+                        RÓWNIEŻ
+                        SERDECZNIE NAMAWIAMY DO ZAPOZNANIA SIĘ Z NASZĄ OFERTĄ.
+                    </p>
+                </aside>
+                <details class="mainSectionCooperateDetails">
+                    <summary class="mainSectionCooperateDetailsSummary" data-open="MNIEJ ..." data-close="WIĘCEJ ...">
+                    </summary>
+                    <header class="mainSectionCooperateDetailsHeader">
+                        <h2 class="mainSectionCooperateDetailsHeaderH2">ZASADY WSPÓŁPRACY</h2>
+                    </header>
+                    <p class="mainSectionCooperateDetailsP">&ensp;OFERUJEMY WSPÓŁPRACĘ Z INNYMI FIRMAMI, POLEGAJĄCĄ NA
+                        UDOSTĘPNIENIU
+                        PRZESTRZENI
+                        REKLAMOWEJ.
+                        NASZA
+                        FIRMA
+                        UDOSTĘPNIA TAKĄ PRZESTRZEŃ NA OGRODZENIU PARKINGU I NA STRONIE INTERNETOWEJ.
+                    </p>
+                    <header class="mainSectionCooperateDetailsHeader">
+                        <h2 class="mainSectionCooperateDetailsHeaderH2">Z KIM WSPÓŁPRACUJEMY</h2>
+                    </header>
+                    <p class="mainSectionCooperateDetailsP">&ensp;JEŻELI PROWADZĄ PAŃSTWO WARSZTAT SAMOCHODOWY, KOMIS,
+                        LUB INNĄ
+                        DZIAŁALNOŚĆ ZWIĄZANĄ Z
+                        OBSŁUGA
+                        SAMOCHODÓW,
+                        JEST TO DOBRY SPOSÓB NA SKUTECZNĄ REKLAMĘ. WŁAŚCICIELI INSTYTUCJI O ODMIENNYM
+                        CHARAKTERZE,
+                        RÓWNIEŻ
+                        SERDECZNIE NAMAWIAMY DO ZAPOZNANIA SIĘ Z NASZĄ OFERTĄ.
+                    </p>
+                </details>
+            </article>
+        </section>
+        <section CLASS="mainSectionAboutUs">
+            <hr class="mainSectionAboutUsHr">
+            <header class="mainSectionAboutUsHeader">
+                <h1 class="mainSectionAboutUsHeaderH1">O NAS</h1>
+                <img src="./svg/aboutUs.svg" class="mainSectionAboutUsHeaderImg" alt="O NAS">
+            </header>
+            <hr class="mainSectionAboutUsHr">
+            <article class="mainSectionAboutUsArticle">
+                <header class="mainSectionAboutUsArticleHeader">
+                    <h2 class="mainSectionAboutUsArticleHeaderH2">OBECNIE</h2>
+                </header>
+                <p class="mainSectionAboutUsArticleP twoColumns">&ensp;AKTUALNIE ZAJMUJEMY SIĘ ŚWIADCZENIEM USŁUG
+                    PARKINGOWYCH NA TERENIE ŁODZI
+                    PRZY ULICY
+                    PRZYBYSZEWSKIEGO
+                    28.
+                    NASZ WYKWALIFIKOWANY ZESPÓŁ, DOSKONALE POTRAFI ZATROSZCZYĆ SIĘ O MIENIE KLIENTA, KTÓRY
+                    NAM
+                    ZAUFAŁ.
+                    SPROSTAMY WSZELKIM OBOWIĄZKOM I PAŃSTWA OCZEKIWANIOM. PRACOWNICY FIRMY REGULARNIE
+                    PRZECHODZĄ
+                    SZKOLENIA Z
+                    ZAKRESU DOZORU I OCHRONY MIENIA.
+                </p>
+                <aside class="mainSectionAboutUsArticleAside">
+                    <header class="mainSectionAboutUsArticleAsideHeader">
+                        <h2 class="mainSectionAboutUsArticleAsideHeaderH2">HISTORIA</h2>
+                    </header>
+                    <p class="mainSectionAboutUsArticleAsideP">&ensp;FIRMA CIECHOMEX ISTNIEJE OD 2000 ROKU. DZIĘKI
+                        DŁUGOLETNIEJ OBECNOŚCI
+                        NA RYNKU I CIĄGŁEJ
+                        WSPÓŁPRACY Z
+                        KLIENTEM, NAUCZYLIŚMY SIĘ JAK SPROSTAĆ JEGO OCZEKIWANIOM. W CIĄGU NASZEJ WIELOLETNIEJ
+                        DZIAŁALNOŚCI,
+                        ZDOBYLIŚMY DOŚWIADCZENIE POZWALAJĄCE NA PROFESJONALNE ŚWIADCZENIE USŁUG.</p>
+                    <header class="mainSectionAboutUsArticleAsideHeader">
+                        <h2 class="mainSectionAboutUsArticleAsideHeaderH2">PRZYSZŁOŚĆ</h2>
+                    </header>
+                    <p class="mainSectionAboutUsArticleAsideP">&ensp;PLANUJEMY MODERNIZACJĘ MONITORUNGU NA TERENIE PLACU
+                        PARKINGOWEGO.
+                        AGENCI OCHRONY W
+                        NAJBLIŻSZYM
+                        CZASIE
+                        MAJĄ KOLEJNE SZKOLENIE Z ZAKRESU OCHRONY MIENIA.</p>
+                </aside>
+                <details class="mainSectionAboutUsDetails">
+                    <summary class="mainSectionAboutUsDetailsSummary" data-open="MNIEJ ..." data-close="WIĘCEJ ...">
+                    </summary>
+                    <header class="mainSectionAboutUsDetailsHeader">
+                        <h2 class="mainSectionAboutUsDetailsHeaderH2">HISTORIA</h2>
+                    </header>
+                    <p class="mainSectionAboutUsDetailsP">&ensp;FIRMA CIECHOMEX ISTNIEJE OD 2000 ROKU. DZIĘKI
+                        DŁUGOLETNIEJ OBECNOŚCI
+                        NA RYNKU I CIĄGŁEJ
+                        WSPÓŁPRACY Z
+                        KLIENTEM, NAUCZYLIŚMY SIĘ JAK SPROSTAĆ JEGO OCZEKIWANIOM. W CIĄGU NASZEJ WIELOLETNIEJ
+                        DZIAŁALNOŚCI,
+                        ZDOBYLIŚMY DOŚWIADCZENIE POZWALAJĄCE NA PROFESJONALNE ŚWIADCZENIE USŁUG.</p>
+                    <header class="mainSectionAboutUsDetailsHeader">
+                        <h2 class="mainSectionAboutUsDetailsHeaderH2">PRZYSZŁOŚĆ</h2>
+                    </header>
+                    <p class="mainSectionAboutUsDetailsP">&ensp;PLANUJEMY MODERNIZACJĘ MONITORUNGU NA TERENIE PLACU
+                        PARKINGOWEGO.
+                        AGENCI OCHRONY W
+                        NAJBLIŻSZYM
+                        CZASIE
+                        MAJĄ KOLEJNE SZKOLENIE Z ZAKRESU OCHRONY MIENIA.</p>
+                </details>
+            </article>
+        </section> -->
+
+
+
+        
+
+    .mainSectionSelect {
+        width: 290px;
+    }
+
+    .mainSectionOfferArticleUnorderedList {
+        width: 290px;
+    }
+
+    .mainSectionOfferArticleUnorderedListListItem {
+        color: #000000;
+        font-size: 18px;
+        list-style-type: none;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 0px;
+        text-align: left;
+        width: 290px;
+    }
+
+
+    .mainSectionArticleTable {
+        margin-top: 15px;
+        width: 290px;
+    }
+
+    .mainSectionArticleTableTr:nth-child(odd) {
+        background-color: #ffa4a4;
+        width: 290px;
+    }
+
+    .mainSectionOfferArticleTableTrThHeaderH2 {
+        background-color: #ff0000;
+        color: #ffffff;
+        font-size: 15px;
+        margin: 0px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .mainSectionOfferArticleTableTrTdP {
+        color: #000000;
+        font-size: 10px;
+        margin: 0px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .mainSectionOfferArticleIframe {
+        margin-top: 15px;
+        width: 290px;
+    }
