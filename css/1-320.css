@@ -12,6 +12,7 @@
         margin: 0px;
         padding: 0px;
         width: 100%;
+        text-transform: uppercase;
     }
 
     .header {
@@ -78,16 +79,21 @@
     }
 
     .mainSectionArticleHeaderH2 {
-        color: #ff0000;
+        color: #ffffff;
+        background-color: #ff0000;
         font-size: 20px;
-        margin-bottom: 15px;
-        margin-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         text-align: left;
     }
 
     .mainSectionArticleP {
         color: #000000;
-        font-size: 20px;
+        font-size: 15px;
         text-align: justify;
     }
 
@@ -144,7 +150,10 @@
         cursor: pointer;
         font-size: 16px;
         list-style: none;
-        margin: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         outline: 0;
         width: 260px;
     }
@@ -158,20 +167,20 @@
     }
 
     .mainSectionDetailsHeader {
-        width: 290px;
+        width: 300px;
     }
 
     .mainSectionDetailsHeaderH2 {
         color: #ff0000;
         font-size: 20px;
-        margin-top: 15px;
-        margin-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
         text-align: center;
     }
 
     .mainSectionDetailsP {
         font-size: 14px;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         text-align: justify;
     }
 
@@ -184,16 +193,17 @@
     .mainSectionArticleFooterSection {
         align-items: center;
         display: flex;
-        margin-left: 15px;
-        margin-right: 15px;
-        padding-bottom: 5px;
-        padding-top: 5px;
-        width: 290px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        width: 300px;
     }
 
     .mainSectionArticleFooterSectionHeader {
         justify-content: space-around;
-        margin: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .mainSectionArticleFooterSectionImg {
@@ -211,5 +221,74 @@
         color: #ffffff;
         font-size: 15px;
     }
+
+    .mainSectionNav {
+        /* background-color: #ff2626; */
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .mainSectionNavSection {
+        align-items: center;
+        display: flex;
+        /* margin-left: 15px; */
+        /* margin-right: 15px; */
+        padding-bottom: 10px;
+        padding-top: 10px;
+        width: 300px;
+    }
+
+    .mainSectionNavHeader {
+        justify-content: space-around;
+        margin: 5px;
+    }
+
+    .mainSectionNavSectionImg {
+        height: 75px;
+        justify-content: stretch;
+        width: 75px;
+        padding-left: 10px;
+    }
+
+    .mainSectionNavSectionImg:first-child {
+        height: 75px;
+        justify-content: stretch;
+        width: 75px;
+        padding-left: 10px;
+        padding-right: 5px;
+
+    }
+
+    .mainSectionNavSectionImg {
+        height: 75px;
+        justify-content: stretch;
+        width: 75px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .mainSectionNavSectionImg:last-child {
+        height: 75px;
+        justify-content: stretch;
+        width: 75px;
+        padding-right: 10px;
+
+    }
+
+    .mainSectionNavHeaderP {
+        color: #f5f5dc;
+        font-size: 15px;
+    }
+
+    .mainSectionNavHeaderH2 {
+        color: #ffffff;
+        font-size: 15px;
+    }
+
+
+
+
+
+
 
 }
