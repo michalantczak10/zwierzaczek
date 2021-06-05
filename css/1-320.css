@@ -54,6 +54,12 @@
         width: 300px;
     }
 
+    .mainSectionArticleHr {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 300px;
+    }
+
     .mainSectionHeader {
         display: flex;
         width: 300px;
@@ -72,6 +78,7 @@
 
     .mainSectionArticle {
         width: 300px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .mainSectionArticleHeader {
@@ -94,15 +101,20 @@
     .mainSectionArticleP {
         color: #000000;
         font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
         text-align: justify;
     }
 
     .mainSectionArticleImg {
         margin-left: 0px;
         margin-right: 0px;
-        padding-top: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
         text-align: left;
         width: 300px;
     }
@@ -135,15 +147,23 @@
     }
 
     .mainSectionDetails {
-        width: 290px;
+        width: 300px;
     }
 
     .mainSectionDetails[open] summary::after {
         content: attr(data-open);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .mainSectionDetails:not([open]) summary::after {
         content: attr(data-close);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .mainSectionDetailsSummary {
@@ -155,7 +175,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
         outline: 0;
-        width: 260px;
+        width: 300px;
     }
 
     .mainSectionDetailsSummary::-webkit-details-marker {
@@ -181,11 +201,15 @@
     .mainSectionDetailsP {
         font-size: 14px;
         margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
         text-align: justify;
     }
 
     .mainSectionArticleFooter {
-        background-color: #ff2626;
+        background-color: rgb(230, 19, 11);
         margin: 0 auto;
         width: 300px;
     }
@@ -223,7 +247,6 @@
     }
 
     .mainSectionNav {
-        /* background-color: #ff2626; */
         margin: 0 auto;
         width: 300px;
     }
@@ -231,8 +254,6 @@
     .mainSectionNavSection {
         align-items: center;
         display: flex;
-        /* margin-left: 15px; */
-        /* margin-right: 15px; */
         padding-bottom: 10px;
         padding-top: 10px;
         width: 300px;
